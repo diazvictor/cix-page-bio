@@ -1,0 +1,175 @@
+/**!
+ * @package   CiX
+ * @filename  custom.css
+ * @version   1.0
+ * @author    Díaz Urbaneja Víctor Eduardo Diex <diazvictor@tutamail.com>
+ * @date      08.04.2022 16:44:16 -04
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+:root {
+	--primary: #FF3C2F;
+}
+
+body {
+	font-family: "Montserrat"
+}
+
+a {
+	color: var(--primary);
+}
+
+.wrapper {
+	background-image: url("/assets/images/Degradado + motivoASSETS BIO-LINK.svg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 0 0 50px 50px;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	overflow-y: hidden;
+}
+
+header img {
+	display: block;
+	width: 7rem;
+	margin: 0 auto 50px auto;
+}
+
+main h1 {
+	text-align: center;
+	color: #FEFEFE;
+	font-size: 1.6rem;
+	margin-bottom: 15px;
+}
+
+.items {
+	width: 20rem;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+}
+
+.items a {
+	display: flex;
+	align-items: center;
+	background: var(--primary);
+	padding: 12px;
+	border-radius: 10px;
+
+	box-shadow: 5px 7px 16px 0px rgba(0, 0, 0, 0.4);
+/*
+	box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+*/
+}
+
+
+.items a img:first-child {
+	width: 3rem;
+	margin-right: 20px;
+}
+
+.items a img:last-child {
+	width: 13rem;
+}
+
+.items a:last-child img:last-child {
+	width: 11rem;
+}
+
+/*
+.items a:first-child > img {
+	width: 7rem;
+}
+
+.items a:nth-child(2) > img {
+	width: 14rem;
+}
+
+.items a:last-child > img {
+	width: 9rem;
+}
+*/
+
+.items a + a {
+	margin-top: 25px;
+}
+
+.añadir-contactos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: fit-content;
+	width: -moz-fit-content;
+	margin-bottom: 2rem;
+
+	background-color: #FEFEFE;
+	color: var(--primary);
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.añadir-contactos img {
+	width: 1.6rem;
+	margin-right: 20px;
+}
+
+a.instagram {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+a.instagram img {
+	width: 2rem;
+	height: 2rem;
+	margin-right: 15px;
+}
+
+a.instagram span {
+	color: #FEFEFE;
+	font-size: 1.6rem;
+	font-weight: bold
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer div {
+	width: 16rem;
+	margin: 0 auto;
+}
+
+footer div img {
+	display: block;
+	width: 100%
+}
+
+footer p {
+	font-size: 15px;
+	text-align: center;
+}
+
+@media screen and (max-width: 340px) {
+	.items {
+		width: 18rem;
+	}
+
+	footer p {
+		width: 18rem;
+		margin: 0 auto
+	}
+}

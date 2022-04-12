@@ -1,0 +1,31 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:📡 CIX ve
+N:;;; 📡? CIX ve;
+item1.EMAIL;TYPE=INTERNET:soporte@cix.com.ve
+item1.X-ABLabel:🙋🏻‍♂️ Soporte Técnico
+item2.EMAIL;TYPE=INTERNET:ventas@cix.com.ve
+item2.X-ABLabel:📢 Comercialización
+item3.TEL:+58 291 314 4872
+item3.X-ABLabel:🙋🏻‍♂️ Soporte Técnico
+item4.TEL:+58 424 915 6383
+item4.X-ABLabel:📢 Comercialización - Whatsapp
+item5.TEL:+58 291 314 4872
+item5.X-ABLabel:📢 Comercialización
+item6.ADR:;;Av. La Paz\, QTA\, C. 11A;Maturín;Monagas;6201;VE;Av. La Paz\, 
+ QTA\, C. 11A\nMaturín 6201\, Monagas\nVE
+item6.X-ABLabel:
+item7.ORG:📡? CIX / Telecomunicaciones Rocarli
+item7.X-ABLabel:
+item8.URL:cixtelecom.net
+item8.X-ABLabel:🏡 Página principal
+item9.URL:instagram.com/cixve
+item9.X-ABLabel:Instagram
+item10.URL:facebook.com/cixve
+item10.X-ABLabel:Facebook
+item11.X-ABRELATEDNAMES:Proveedor de Internet
+item11.X-ABLabel:
+PHOTO:https://lh3.googleusercontent.com/contacts/AKUYANTFOP0cuxVuZrd7Y34xrT
+ Vhr3Rg7w0u7lU0gAq2pzkxX-ly9q9-
+CATEGORIES:Telecomunicaciones,myContacts
+END:VCARD
